@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head> 
+<title>Sushi+Sake Packages</title>
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+box-sizing: border-box;
+}
+
+.column {
+float: left;
+width: 33.33%;
+padding: 10px;
+}
+         
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+        
+@media screen and (max-width: 600px) {
+.column {
+width: 100%;
+}
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    <h1>Sushi + Sake Menu</h1>
+</div>
+
+<div class="row">
+    <div class="column">
+        <h2>Package A</h2>
+    </div>
+
+    <div class="column">
+        <h2>Package B</h2>
+    </div>
+
+    <div class="column">
+        <h2>Package C</h2>
+    </div>
+</div>
+</body>
